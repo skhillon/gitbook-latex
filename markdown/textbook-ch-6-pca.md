@@ -17,7 +17,7 @@
 
 $$Z_1 = a_{11}X_1 + a_{12}X_2 + ... + a_{1p}X_p = \vec{a}'\vec{X}$$
 
-* We want to find coefficients \(values of $$a_i$$\) that maximize $$Var(Z_i)$$ WHERE $$\sum{a_{ip}} = 1$$. If we didn't have this condition, all $$a_{ip}$$ values could simply be $$\infty$$.
+* We want to find coefficients \(values of $$a_i$$\) that maximize $$Var(Z_i)$$ WHERE $$\sum{a_{ip}^2} = 1$$. If we didn't have this condition, all $$a_{ip}$$ values could simply be $$\infty$$.
 * Remember that all $$Z_i$$ must be uncorrelated with all other $$Z_i$$s
 
 ### Covariance Matrices

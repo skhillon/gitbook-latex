@@ -52,7 +52,7 @@ $$S_{\bar{d}} = \frac{S_1}{n_1} + \frac{S_2}{n_2}$$
 
 Can we say that...
 
-**1\)** $$H_0: \frac{SAT}{68} = ACT$$ **?**
+**1\)** $$H_0: \frac{\mu_{SAT}}{68} = \mu_{ACT}$$ **?**
 
 Guess: Compare means same
 
