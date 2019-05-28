@@ -6,9 +6,9 @@ Review: Pooled covariance matrix of $$d$$: $$C = \frac{(n_1 - 1)C_1 + (n_2 - 1)C
 
 Covariance estimate for mean dif: $$S_\bar{d} = (\frac{1}{n_1} + \frac{1}{n_2})C$$
 
-$$C^{-1}(\frac{n_1 + n_2}{n_1n_2})^{-1} \to (\frac{n_1 + n_2}{n_1n_2})C^{-1}$$
+$$C^{-1}(\frac{n_1n_2}{n_1 + n_2})^{-1} \to (\frac{n_1n_2}{n_1 + n_2})C^{-1}$$
 
-$$T_2 = \bar{d}^{-1} S_\bar{d}^{-1}\bar{d} = (\frac{n_1 + n_2}{n_1n_2})C^{-1}$$ 
+$$T_2 = \bar{d}^{-1} S_\bar{d}^{-1}\bar{d} = (\frac{n_1n_2}{n_1 + n_2})C^{-1}$$ 
 
 #### Checking Multivariate Normality \(MVN\)
 
